@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Fraction {
     private final long numeratore;
     private final long denominatore;
@@ -36,6 +38,18 @@ public class Fraction {
                 denominatore == fraction.denominatore;
     }
 
+    public Fraction multiply(Fraction f) {
+        return new Fraction(numeratore *f.numeratore, denominatore *f.denominatore);
+    }
+
+    public Fraction divide(Fraction f) {
+        return new Fraction(numeratore * f.denominatore, denominatore * f.numeratore);
+    }
+
+    public Fraction subtract(Fraction f) {
+        return add(new Fraction(-1* f.numeratore,  f.denominatore));
+    }
+
     @Override
     public int hashCode() {
         return Objects.hash(numeratore, denominatore);
@@ -49,15 +63,4 @@ public class Fraction {
                 '}';
     }
 
-    public Fraction multiply(Fraction f) {
-        return new Fraction(numeratore *f.numeratore, denominatore *f.denominatore);
-    }
-
-    public Fraction divide(Fraction f) {
-        return new Fraction(numeratore * f.denominatore, denominatore * f.numeratore);
-    }
-
-    public Fraction subtract(Fraction f) {
-        return add(new Fraction(-1* f.numeratore,  f.denominatore));
-    }
 }
