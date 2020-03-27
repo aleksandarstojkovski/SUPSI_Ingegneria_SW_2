@@ -1,23 +1,13 @@
 import java.util.Objects;
 
 public class Fraction {
+
     private final long numeratore;
     private final long denominatore;
 
     public Fraction(long numeratore, long denominatore) {
         this.numeratore = numeratore;
         this.denominatore = denominatore;
-    }
-
-    public Fraction add(Fraction f) {
-        long lcm = lcm(this.denominatore, f.denominatore);
-        long sum = this.numeratore * (lcm/this.denominatore) + f.numeratore * (lcm/f.denominatore);
-        return new Fraction(sum, lcm);
-    }
-
-    public Fraction simplify() {
-        long gcd = gcd(numeratore, denominatore);
-        return new Fraction(numeratore /gcd, denominatore /gcd);
     }
 
     public static long lcm(long u, long v) {
@@ -36,18 +26,6 @@ public class Fraction {
         Fraction fraction = (Fraction) o;
         return numeratore == fraction.numeratore &&
                 denominatore == fraction.denominatore;
-    }
-
-    public Fraction multiply(Fraction f) {
-        return new Fraction(numeratore *f.numeratore, denominatore *f.denominatore);
-    }
-
-    public Fraction divide(Fraction f) {
-        return new Fraction(numeratore * f.denominatore, denominatore * f.numeratore);
-    }
-
-    public Fraction subtract(Fraction f) {
-        return add(new Fraction(-1* f.numeratore,  f.denominatore));
     }
 
     @Override
