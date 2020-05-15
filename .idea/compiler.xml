@@ -8,7 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="lab3" />
         <module name="lab2" />
-        <module name="lab1" />
+        <module name="s1_ingsw" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
