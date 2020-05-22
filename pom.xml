@@ -13,7 +13,6 @@
         <module>examples/e2eguitestingdemo</module>
         <module>examples/guiframework</module>
         <module>examples/statedemo</module>
-        <module>examples/personbuilder</module>
         <module>lab1</module>
         <module>lab2.1_StrategyAndTemplate</module>
         <module>lab2.2_StrategyAndDecorator</module>

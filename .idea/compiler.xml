@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="e2etestsdemo" />
         <module name="lab2.2_StrategyAndDecorator" />
-        <module name="personbuilder" />
         <module name="lab3" />
         <module name="s1_ingsw" />
         <module name="lab2.1_StrategyAndTemplate" />
@@ -26,7 +25,7 @@
       <module name="lab1" target="13" />
       <module name="lab2.1_StrategyAndTemplate" target="10" />
       <module name="lab2.2_StrategyAndDecorator" target="10" />
-      <module name="lab3" target="1.5" />
+      <module name="lab3" target="1.13" />
       <module name="personbuilder" target="9" />
       <module name="statedemo" target="11" />
     </bytecodeTargetLevel>

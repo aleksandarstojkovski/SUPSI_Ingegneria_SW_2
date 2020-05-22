@@ -12,6 +12,7 @@
     <artifactId>lab3</artifactId>
 
     <dependencies>
+
         <!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
         <dependency>
             <groupId>com.google.inject</groupId>
@@ -20,5 +21,10 @@
         </dependency>
 
     </dependencies>
+
+    <properties>
+        <maven.compiler.source>1.13</maven.compiler.source>
+        <maven.compiler.target>1.13</maven.compiler.target>
+    </properties>
 
 </project>
