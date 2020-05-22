@@ -7,14 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lab3" />
-        <module name="lab2" />
+        <module name="lab2.2_StrategyAndDecorator" />
         <module name="s1_ingsw" />
+        <module name="lab2.1_StrategyAndTemplate" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="IngSw2" target="1.5" />
       <module name="lab1" target="13" />
-      <module name="lab2" target="10" />
+      <module name="lab2.1_StrategyAndTemplate" target="10" />
+      <module name="lab2.2_StrategyAndDecorator" target="1.5" />
       <module name="lab3" target="1.5" />
     </bytecodeTargetLevel>
   </component>
