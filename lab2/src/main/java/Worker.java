@@ -1,5 +1,6 @@
 public class Worker {
-    private int startingValue;
+
+    private final int startingValue;
 
     public Worker(int startingValue) {
         this.startingValue = startingValue;

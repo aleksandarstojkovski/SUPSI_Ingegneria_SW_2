@@ -1,9 +1,10 @@
 import java.util.ArrayList;
 
 public class MyList<T> {
-    private ArrayList<T> myArrayList;
 
-    MyList(){
+    private final ArrayList<T> myArrayList;
+
+    public MyList(){
         myArrayList = new ArrayList<T>();
     }
 
@@ -25,6 +26,7 @@ public class MyList<T> {
     MyIterator<T> getBackwardIterator(){
         return new BackwardIterator<>(this);
     }
+
 }
 
 

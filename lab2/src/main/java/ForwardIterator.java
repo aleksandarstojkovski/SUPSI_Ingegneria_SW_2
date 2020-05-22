@@ -1,6 +1,8 @@
 public class ForwardIterator<T> implements MyIterator<T> {
-    private MyList<T> myList;
+
+    private final MyList<T> myList;
     int position;
+
     ForwardIterator(MyList<T> ob){
         this.myList=ob;
         position = 0;
@@ -21,10 +23,7 @@ public class ForwardIterator<T> implements MyIterator<T> {
     @Override
     public boolean hasMoreElements() {
         int lastPosition = myList.length()-1;
-        if (position<lastPosition){
-            return true;
-        } else{
-            return false;
-        }
+        return position<=lastPosition;
     }
+
 }

@@ -12,12 +12,13 @@
     <artifactId>lab3</artifactId>
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/javax.inject/javax.inject -->
+        <!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
         <dependency>
-            <groupId>javax.inject</groupId>
-            <artifactId>javax.inject</artifactId>
-            <version>1</version>
+            <groupId>com.google.inject</groupId>
+            <artifactId>guice</artifactId>
+            <version>4.0</version>
         </dependency>
+
     </dependencies>
 
 </project>

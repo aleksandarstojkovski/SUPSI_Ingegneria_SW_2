@@ -2,6 +2,7 @@
 import java.io.*;
 
 public class BackPrinter {
+
     private final Reader reader;
 
     BackPrinter(String path) throws FileNotFoundException {
@@ -14,7 +15,7 @@ public class BackPrinter {
     }
 
     public static void main(String[] args) throws IOException {
-        BackPrinter printer = new BackPrinter("C:\\SUPSI\\Ingegneria del software 2\\IngSofware2\\src\\main\\resources\\text.txt");
+        BackPrinter printer = new BackPrinter("test.txt");
         var list = printer.loadData();
         printer.printData(list, System.out);
     }
@@ -35,4 +36,5 @@ public class BackPrinter {
         }
         return myList;
     }
+
 }

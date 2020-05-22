@@ -5,17 +5,17 @@ import java.io.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class BackPrinterTest {
+class PrinterTest {
 
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 
     @Test
     void printData() throws IOException {
-        InputStream in = BackPrinterTest.class.getResourceAsStream("text.txt");
-        BackPrinter printer = new BackPrinter(in);
+        InputStream in = PrinterTest.class.getResourceAsStream("text.txt");
+        Printer printer = new Printer(in);
         var list =  printer.loadData();
         PrintStream stream = new PrintStream(outContent);
-        printer.printData(list, stream);
+        printer.printData(new LineForwardWriter(System.out,new DoNothingStrategy(),list));
 
         String result = "CCC" + System.lineSeparator() +
                 "BBB" + System.lineSeparator() +
@@ -25,7 +25,7 @@ class BackPrinterTest {
 
     @Test
     void loadData() {
-        assertThrows(FileNotFoundException.class, () -> new BackPrinter("path_not_existing"));
+        assertThrows(NullPointerException.class, () -> new Printer("path_not_existing"));
     }
 
 }

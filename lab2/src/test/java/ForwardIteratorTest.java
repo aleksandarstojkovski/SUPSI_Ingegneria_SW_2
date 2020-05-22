@@ -32,4 +32,5 @@ class ForwardIteratorTest {
         MyList<String> testList = new MyList<String>();
         assertEquals(false,testList.getForwardIterator().hasMoreElements());
     }
+
 }

@@ -1,5 +1,6 @@
 public class BackwardIterator<T> implements MyIterator<T> {
-    private MyList<T> myList;
+
+    private final MyList<T> myList;
     private int position;
 
     public BackwardIterator(MyList<T> ob){
@@ -21,10 +22,7 @@ public class BackwardIterator<T> implements MyIterator<T> {
 
     @Override
     public boolean hasMoreElements() {
-        if(position>0){
-            return true;
-        }else{
-            return false;
-        }
+        return position>=0;
     }
+
 }
