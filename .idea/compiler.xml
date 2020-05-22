@@ -6,18 +6,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lab3" />
+        <module name="e2etestsdemo" />
         <module name="lab2.2_StrategyAndDecorator" />
+        <module name="personbuilder" />
+        <module name="lab3" />
         <module name="s1_ingsw" />
         <module name="lab2.1_StrategyAndTemplate" />
+        <module name="guiframework" />
+        <module name="basicmvc" />
+        <module name="statedemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="basicmvc" target="9" />
+      <module name="e2etestsdemo" target="11" />
+      <module name="examples" target="1.5" />
+      <module name="guiframework" target="11" />
       <module name="IngSw2" target="1.5" />
       <module name="lab1" target="13" />
       <module name="lab2.1_StrategyAndTemplate" target="10" />
-      <module name="lab2.2_StrategyAndDecorator" target="1.5" />
+      <module name="lab2.2_StrategyAndDecorator" target="10" />
       <module name="lab3" target="1.5" />
+      <module name="personbuilder" target="9" />
+      <module name="statedemo" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

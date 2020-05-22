@@ -3,10 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/IngSw2.iml" filepath="$PROJECT_DIR$/IngSw2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/basicmvc/basicmvc.iml" filepath="$PROJECT_DIR$/examples/basicmvc/basicmvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/e2eguitestingdemo/e2etestsdemo.iml" filepath="$PROJECT_DIR$/examples/e2eguitestingdemo/e2etestsdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/guiframework/guiframework.iml" filepath="$PROJECT_DIR$/examples/guiframework/guiframework.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab1/lab1.iml" filepath="$PROJECT_DIR$/lab1/lab1.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab2.1_StrategyAndTemplate/lab2.1_StrategyAndTemplate.iml" filepath="$PROJECT_DIR$/lab2.1_StrategyAndTemplate/lab2.1_StrategyAndTemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab2.2_StrategyAndDecorator/lab2.2_StrategyAndDecorator.iml" filepath="$PROJECT_DIR$/lab2.2_StrategyAndDecorator/lab2.2_StrategyAndDecorator.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab3/lab3.iml" filepath="$PROJECT_DIR$/lab3/lab3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/personbuilder/personbuilder.iml" filepath="$PROJECT_DIR$/examples/personbuilder/personbuilder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/statedemo/statedemo.iml" filepath="$PROJECT_DIR$/examples/statedemo/statedemo.iml" />
     </modules>
   </component>
 </project>
