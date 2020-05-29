@@ -10,11 +10,9 @@ public class CarModule extends AbstractModule{
         bind(IEngine.class).to(Engine.class);
         bind(IBody.class).to(Body.class);
 
-        wheels = new Wheel[4];
         for(int i = 0; i < wheels.length;i++){
-            Wheel newWheel = new Wheel();
-            wheels[i] = newWheel;
-            requestInjection(newWheel);
+            wheels[i] = new Wheel();
+            requestInjection(wheels[i]);
         }
     }
 
