@@ -7,7 +7,7 @@ public class Main {
         try {
             Injector injector = Guice.createInjector(new GuiceConfiguration());
             Car car = injector.getInstance(Car.class);
-            System.out.println("L'auto pesa " + car.getWeight());
+            System.out.println("Peso totale: " + car.getWeight());
         } catch (Exception e){
             e.printStackTrace();
         }
