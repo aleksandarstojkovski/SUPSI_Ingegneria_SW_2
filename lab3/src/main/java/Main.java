@@ -5,7 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
         try {
-            Injector injector = Guice.createInjector(new GuiceConfiguration());
+            Injector injector = Guice.createInjector(new CarModule());
             Car car = injector.getInstance(Car.class);
             System.out.println("Peso totale: " + car.getWeight());
         } catch (Exception e){

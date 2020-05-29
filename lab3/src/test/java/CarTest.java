@@ -10,7 +10,7 @@ class CarTest {
 
         double weigthExpected = new Engine().getWeight() + new Body().getWeight() + new Frame().getWeight() + new Interior().getWeight();
 
-        Injector injector = Guice.createInjector(new GuiceConfiguration());
+        Injector injector = Guice.createInjector(new CarModule());
 
         Car carTest = injector.getInstance(Car.class);
 

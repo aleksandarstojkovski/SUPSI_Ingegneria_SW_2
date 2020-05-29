@@ -1,7 +1,7 @@
 import com.google.inject.AbstractModule;
 import com.google.inject.Provides;
 
-public class GuiceConfiguration extends AbstractModule{
+public class CarModule extends AbstractModule{
 
     Wheel[] wheels = new Wheel[4];
 
