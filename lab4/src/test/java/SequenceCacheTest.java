@@ -1,35 +1,24 @@
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
-import org.mockito.runners.MockitoJUnitRunner;
-
-import java.util.HashMap;
 import java.util.Map;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.Mockito.*;
 
-@RunWith(MockitoJUnitRunner.class)
 class SequenceCacheTest {
 
-    @Mock
-    private SequenceCache sequenceCacheMock;
-
-    @InjectMocks
-    private Map<Integer, Worker> cache = new HashMap<>();
-
     @Test
-    void length() {
-        SequenceCache cache = new SequenceCache();
-        assertEquals(6, cache.length(10));
-        assertEquals(6, cache.length(10));
-    }
+    void test1() {
 
-    @Test
-    void testCache(){
-        sequenceCacheMock.length(10);
-        Mockito.verify(cache, Mockito.times(1)).put(Mockito.anyInt(),Mockito.anyObject());
+        Map<Integer, Worker> cache = Mockito.mock(Map.class);
+        SequenceCache sequenceCache = new SequenceCache(cache);
+
+        when(cache.get(6)).thenReturn(new Worker(6));
+        when(cache.containsKey(6)).thenReturn(false).thenReturn(true);
+        sequenceCache.length(6);
+        verify(cache,times(1)).put(anyInt(),anyObject());
+
     }
 
 }
