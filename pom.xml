@@ -18,7 +18,7 @@
         <module>lab2.2_StrategyAndDecorator</module>
         <module>lab3</module>
         <module>lab4</module>
-        <module>lab5_Composite</module>
-        <module>lab5_CompositeAndVisitor</module>
+        <module>lab5.1_Composite</module>
+        <module>lab5.2_CompositeAndVisitor</module>
     </modules>
 </project>

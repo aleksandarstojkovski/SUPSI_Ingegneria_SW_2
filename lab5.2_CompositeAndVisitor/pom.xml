@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>lab5_CompositeAndVisitor</artifactId>
+    <artifactId>lab5.2_CompositeAndVisitor</artifactId>
     <build>
         <plugins>
             <plugin>
