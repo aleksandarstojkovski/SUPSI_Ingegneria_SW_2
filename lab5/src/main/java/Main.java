@@ -6,10 +6,10 @@ public class Main {
         Employee employee3 = new Developer();
         Employee employee4 = new Developer();
 
-        Department department = new Department();
-        Division division = new Division();
-        Section section = new Section();
-        Office office = new Office();
+        Department department = new Department("department");
+        Division division = new Division("division");
+        Section section = new Section("section");
+        Office office = new Office("office");
 
         department.addEmployee(division);
         division.addEmployee(section);
