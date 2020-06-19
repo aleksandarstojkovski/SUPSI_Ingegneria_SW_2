@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Composite implements Employee{
+public class Composite implements Component {
 
-    private List<Employee> eployeeList = new ArrayList<>();
+    private List<Component> eployeeList = new ArrayList<>();
     private String name;
 
     public Composite(String name){
@@ -12,15 +12,15 @@ public class Composite implements Employee{
 
     public void printAll() {
         System.out.println(name);
-        for (Employee emp : eployeeList)
+        for (Component emp : eployeeList)
             emp.printAll();
     }
 
-    public void addEmployee(Employee emp){
+    public void addComponent(Component emp){
         eployeeList.add(emp);
     }
 
-    public void removeEmployee(Employee emp){
+    public void removeComponent(Component emp){
         eployeeList.remove(emp);
     }
 

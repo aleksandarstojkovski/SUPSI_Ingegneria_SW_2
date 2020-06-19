@@ -1,4 +1,4 @@
-public class Developer implements Employee{
+public class Developer implements Component {
 
     private static int counter=1;
     private int id;

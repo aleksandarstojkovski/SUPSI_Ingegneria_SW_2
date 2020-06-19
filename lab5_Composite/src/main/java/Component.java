@@ -1,3 +1,3 @@
-public interface Employee {
+public interface Component {
     public void printAll();
 }

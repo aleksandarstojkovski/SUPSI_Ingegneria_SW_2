@@ -11,7 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/lab2.2_StrategyAndDecorator/lab2.2_StrategyAndDecorator.iml" filepath="$PROJECT_DIR$/lab2.2_StrategyAndDecorator/lab2.2_StrategyAndDecorator.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab3/lab3.iml" filepath="$PROJECT_DIR$/lab3/lab3.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab4/lab4.iml" filepath="$PROJECT_DIR$/lab4/lab4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lab5/lab5.iml" filepath="$PROJECT_DIR$/lab5/lab5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab5_Composite/lab5.iml" filepath="$PROJECT_DIR$/lab5_Composite/lab5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab5_CompositeAndVisitor/lab5_CompositeAndVisitor.iml" filepath="$PROJECT_DIR$/lab5_CompositeAndVisitor/lab5_CompositeAndVisitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/examples/statedemo/statedemo.iml" filepath="$PROJECT_DIR$/examples/statedemo/statedemo.iml" />
     </modules>
   </component>
