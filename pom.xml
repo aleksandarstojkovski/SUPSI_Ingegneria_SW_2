@@ -13,11 +13,11 @@
         <module>examples/e2eguitestingdemo</module>
         <module>examples/guiframework</module>
         <module>examples/statedemo</module>
-        <module>lab1</module>
+        <module>lab1_UnitTests</module>
         <module>lab2.1_StrategyAndTemplate</module>
         <module>lab2.2_StrategyAndDecorator</module>
-        <module>lab3</module>
-        <module>lab4</module>
+        <module>lab3_DependencyInjection</module>
+        <module>lab4_Mocking</module>
         <module>lab5.1_Composite</module>
         <module>lab5.2_CompositeAndVisitor</module>
     </modules>
