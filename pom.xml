@@ -16,9 +16,11 @@
         <module>lab1_UnitTests</module>
         <module>lab2.1_StrategyAndTemplate</module>
         <module>lab2.2_StrategyAndDecorator</module>
-        <module>lab3_DependencyInjection</module>
+        <module>lab3.1_DependencyInjection</module>
         <module>lab4_Mocking</module>
         <module>lab5.1_Composite</module>
         <module>lab5.2_CompositeAndVisitor</module>
+        <module>lab3.2_DependencyInjection</module>
+        <module>lab5.3_CompositeAndVisitor</module>
     </modules>
 </project>

@@ -1,0 +1,3 @@
+interface ITire {
+    double getWeight();
+}

@@ -6,16 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="lab5.3_CompositeAndVisitor" />
         <module name="e2etestsdemo" />
         <module name="s1_ingsw" />
-        <module name="lab3_DependencyInjection" />
         <module name="lab4_Mocking" />
+        <module name="lab2.2_StrategyAndDecorator" />
         <module name="basicmvc" />
         <module name="lab5.2_CompositeAndVisitor" />
         <module name="lab2.1_StrategyAndTemplate" />
         <module name="guiframework" />
-        <module name="lab2.2_StrategyAndDecorator" />
+        <module name="lab3.2_DependencyInjection" />
         <module name="lab5.1_Composite" />
+        <module name="lab3.1_DependencyInjection" />
         <module name="statedemo" />
       </profile>
     </annotationProcessing>
@@ -28,10 +30,12 @@
       <module name="lab1_UnitTests" target="13" />
       <module name="lab2.1_StrategyAndTemplate" target="10" />
       <module name="lab2.2_StrategyAndDecorator" target="10" />
-      <module name="lab3_DependencyInjection" target="1.8" />
+      <module name="lab3.1_DependencyInjection" target="1.8" />
+      <module name="lab3.2_DependencyInjection" target="6" />
       <module name="lab4_Mocking" target="8" />
       <module name="lab5.1_Composite" target="7" />
       <module name="lab5.2_CompositeAndVisitor" target="7" />
+      <module name="lab5.3_CompositeAndVisitor" target="1.5" />
       <module name="personbuilder" target="9" />
       <module name="statedemo" target="11" />
     </bytecodeTargetLevel>
