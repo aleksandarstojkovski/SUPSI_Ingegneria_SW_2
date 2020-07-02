@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Composite implements Component {
+
     private final String name;
 
     List<Component> components = new ArrayList<>();
@@ -28,4 +29,5 @@ public class Composite implements Component {
            c.accept(visitor);
        }
    }
+
 }

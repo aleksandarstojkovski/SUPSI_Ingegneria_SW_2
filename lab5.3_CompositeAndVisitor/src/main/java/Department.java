@@ -1,4 +1,5 @@
 public class Department extends Composite {
+
     public Department(String name) {
         super(name);
     }
@@ -7,4 +8,5 @@ public class Department extends Composite {
     public void accept(Visitor visitor) {
         visitor.visitDepartment(this);
     }
+
 }

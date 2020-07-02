@@ -1,4 +1,5 @@
 public class Person implements Component {
+
     private final String name;
 
     public String getName() {
@@ -27,5 +28,6 @@ public class Person implements Component {
     public void accept(Visitor visitor) {
         visitor.visitPerson(this);
     }
+
 }
 
